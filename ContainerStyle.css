@@ -75,7 +75,14 @@ model-viewer {
     border-radius: 10px;
     padding: 10px;
   }
-
+  
+ #dropdwn {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    max-width: unset;
+    transform: unset;
+  }
 footer {
   display: flex;
   flex-direction: column;
